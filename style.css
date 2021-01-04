@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.top-bg{
+    background-image: url(imgs/top-banner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.body-bg{
+    background-image: url(imgs/dream-bg.png);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 150px;
+}
+.boxs{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.text-color{
+    color: orange;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    padding: 40px 0 20px 0;
+}
+p{
+    padding-bottom: 20px;
+
+}
+.boxs img{
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    background-image:linear-gradient(to right,#FF9470,#FF6F51) ;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white; 
+    transition: 2s;
+}
+a:hover{
+    background-image:linear-gradient(to right,#33c297,#12a7fd) ;
+}
+.exp{
+    text-align: center;
+    margin-bottom: 50px;
+    color: orange;
+}
+.bottom-bg{ 
+    background-image: url(imgs/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+.bottom{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 2%;
+    height: 400px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.bottom:hover{
+    background-color: #FF458F;
+    color: white;
+    transition: 1s;
+}
+.bottom h3{
+    color: orange;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    color: lightsalmon;
+}
+.left-box{
+    transition: 3s;
+}
+.right-box{
+    transition: 6s;
+}
